@@ -1,3 +1,19 @@
+/*
+Sai Charan - Made it for fun and curiosity, and also just because it has only 3 components and does a lot of potential stuff. 
+I didn't proceed to see this code with a 7-segment display but that is something I am hoping to do someother time. 
+
+This programmer itself is a big thing because it can also be used to program opcodes as Ben Eater does in one of his videos.
+
+This is the version I wrote by seeing the video. In the end, I have an EEPROM with data for a common-anode 7-segment display like given in the array
+'data' down below. 
+
+I used two 74HC595 8-bit shift registers from ST Microelectronics, 1 28C16 EEPROM from Excel Microelectronics and an Arduino Uno (unlike Arduino Nano
+which is shown in the vide, though it doesn't make any difference between the pins connection for this EEPROM Programmer). 
+
+With the given ICs and the pin connections, this code should actually do the job.  
+*/
+
+
 #define SHIFT_DATA 2 // pin 11 in 595 
 #define SHIFT_CLK 3 // pin 12 in 595
 #define SHIFT_LATCH 4 // pin 14 in 595
