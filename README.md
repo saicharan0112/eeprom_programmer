@@ -8,5 +8,4 @@ Hence this repo has two versions of the Arduino code - Version from the Ben Eate
 
 Along with the code, this also have the data sheets for both the ICs. 
 
-![EEPROM Programmer with a lot of jumper wires](./eeprom_programmer.jpg)
-
+Here is the picture which was taken after everything is in place and the data is entered into EEPROM - [EEPROM Programmer with a lot of jumper wires](https://github.com/saicharan0112/eeprom_programmer/blob/main/eeprom_programmer.jpg)
